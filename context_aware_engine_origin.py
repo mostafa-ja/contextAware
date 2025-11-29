@@ -132,7 +132,7 @@ class WeatherVectorizer:
         elif code == 85: features["weather_snow_shower"] = 0.7
         elif code == 86: features["weather_snow_shower"] = 1.0
         elif code in [95, 96, 99]: features["weather_thunderstorm"] = 1.0
-        else: features["weather_clear"] = 0.0 # Default
+        else: features["weather_clear"] = 0.5 # Default
         
         return features
 
@@ -528,5 +528,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
