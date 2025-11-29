@@ -1,70 +1,284 @@
 # 🌤️ AI Contextual Suggestion Engine (Python)
 
-A standalone Python implementation of a **fuzzy-logic recommendation system**. This engine analyzes real-time weather, time of day, and seasonal context to suggest the best activities, foods, drinks, and media for the current moment.
+A standalone Python implementation of an **AI-powered fuzzy-logic recommendation system**.
+This engine analyzes **real-time weather**, **time of day**, **season**, and **inferred human context** (mood, energy, social state) to suggest the most relevant Persian-cultural activities, foods, drinks, clothing, and media for the current moment.
 
-It is a port of the logic used in an Android application, designed to be lightweight, dependency-free, and easy to run on any machine.
+It is a faithful Python port of the engine used in the Android app—lightweight, dependency-free, and runnable on any machine.
 
-## ✨ Features
+---
 
-- **🌍 Real-Time Weather**: Automatically fetches live weather data (Temperature, Humidity, Wind, Weather Code) from the [Open-Meteo API](https://open-meteo.com/) (No API key required).
-- **🧠 Fuzzy Logic Core**: Uses fuzzy membership functions to model human perception (e.g., converting "15°C" into a mix of "Cool" and "Cold" scores).
-- **📐 Vector Similarity**: Matches the user's current context vector (65+ dimensions) against a database of suggestion vectors using a **Weighted Dot Product** algorithm.
-- **🚀 Zero Dependencies**: Written in pure Python using only standard libraries (`urllib`, `json`, `math`, `datetime`). No `pip install` needed!
-- **📂 JSON Data Driven**: Loads suggestions dynamically from a local folder of JSON files.
+## ✨ Key Features
+
+### 🌍 **Real-Time Weather Awareness**
+
+Automatically fetches live data from the free **Open-Meteo API**, including:
+
+* Temperature & Feels-Like temperature
+* Humidity
+* Wind speed
+* Weather condition code
+
+No API keys required.
+
+### 🧠 **Fuzzy Logic Core**
+
+Uses fuzzy membership functions to convert raw weather/time into human-like perceptions:
+
+* “15°C → 70% cool, 30% cold”
+* “23:00 → strong night + medium late night”
+
+This produces a **rich 65-dimensional context vector**.
+
+### 📐 **AI Scoring via Weighted Dot Product**
+
+Every suggestion in the dataset has a custom preference vector.
+The engine computes:
+
+```
+Score = Σ (Context_feature × Suggestion_preference × Group_weight)
+```
+
+This prioritizes:
+
+* feasibility (weather, temperature)
+* emotional fit (mood)
+* physical constraints (location, wind, rain)
+* cultural timing (events, season)
+
+### 🚫 **Safety / Feasibility Veto**
+
+If a suggestion contains a `-10.0` veto feature (e.g., picnic in thunderstorm)
+and the context activates that feature → it is **immediately removed**.
+
+### 📂 **JSON Data Driven**
+
+Loads all suggestions dynamically from a `dataset/` directory:
+
+* food & drink
+* activities
+* media
+* clothing
+* mood
+
+Each file is simple JSON—easy to extend or auto-generate.
+
+### 🚀 **Zero Dependencies**
+
+Pure Python.
+No `pip install` required.
+Uses only:
+
+* `json`
+* `urllib`
+* `datetime`
+* `math`
+* `os`
+
+---
+
+## 🧩 How It Works (Simplified)
+
+1. **Fetch weather**
+2. **Vectorize weather/time** using fuzzy logic
+3. **Infer mood, social state, location, and energy**
+4. **Build a 65-dimensional context vector**
+5. **Load all JSON suggestions** from `dataset/`
+6. **Score each item** using weighted dot product
+7. **Apply veto logic**
+8. **Group top suggestions by category/subcategory**
+9. **Print + save results** to `suggestion_output.txt`
+
+---
+
+## 📊 Flowchart
+
+```
+                          ┌────────────────────────┐
+                          │    Start Application   │
+                          └────────────┬───────────┘
+                                       │
+                                       ▼
+                     ┌─────────────────────────────────┐
+                     │ Fetch Real-Time Weather (API)   │
+                     └──────────────────┬──────────────┘
+                                        │
+                                        ▼
+                          ┌──────────────────────────┐
+                          │ Build Context Vector     │
+                          └─────────────┬────────────┘
+                                        │
+      ┌─────────────────────────────────┼────────────────────────────────┐
+      ▼                                 ▼                                ▼
+┌───────────────────┐         ┌─────────────────────┐         ┌─────────────────────┐
+│ Weather Vectorizer│         │ Time Vectorizer     │         │ Infer Human Context │
+│ (temp/wind/etc.)  │         │ (morning/evening)   │         │ (mood/social/etc.)  │
+└───────────┬───────┘         └──────────┬──────────┘         └──────────┬──────────┘
+            │                              │                           │
+            └──────────────┬───────────────┴──────────────┬─────────────┘
+                           ▼                               ▼
+              ┌─────────────────────────────────────────────────────────┐
+              │ Combine All Into 65-Dimensional Context Vector          │
+              └─────────────────────┬────────────────────────────────────┘
+                                    │
+                                    ▼
+                       ┌──────────────────────────┐
+                       │ Load Suggestions (JSONs) │
+                       └─────────────┬────────────┘
+                                     │
+                                     ▼
+                       ┌──────────────────────────┐
+                       │ Score Suggestions        │
+                       │ - Veto rules             │
+                       │ - Weighted dot product   │
+                       └─────────────┬────────────┘
+                                     │
+                                     ▼
+                   ┌──────────────────────────────────────────┐
+                   │ Group Top Results per Category/Subcat     │
+                   └─────────────────────┬──────────────────────┘
+                                         │
+                                         ▼
+                           ┌────────────────────────────┐
+                           │ Display & Save Results     │
+                           └────────────────────────────┘
+```
+
+---
 
 ## 🚀 How to Run
 
-### Prerequisites
-- Python 3.6 or higher.
+### ✔ Requirements
 
-### Setup
-1.  Ensure the `context_aware_engine_origin.py` script is in the same directory as your data folder (or update the `DATA_DIR` path in the script).
-    - Default expected path: `dataset`
-2.  Run the script:
+* Python **3.6+**
+
+### ✔ Run the script
 
 ```bash
-context_aware_engine_origin.py
+python context_aware_engine_origin.py
 ```
 
-### Output
-The script will:
-1.  Print the current weather and time to the console.
-2.  Calculate the top suggestions for each subcategory.
-3.  Display the results in the terminal.
-4.  Save a detailed report to **`suggestion_output.txt`**.
+### ✔ What you’ll see
+
+* Current weather & time
+* Top active context features
+* Best suggestions grouped by:
+  `Category > Subcategory`
+* Full report saved to:
+  **`suggestion_output.txt`**
+
+---
 
 ## ⚙️ Configuration
 
-You can customize the engine by editing the constants at the top of `context_aware_engine_origin.py`:
+Modify these values at the top of the script:
 
 ```python
-# Location (Default: Tehran)
+# Default Location (Tehran)
 LATITUDE = 35.6892
 LONGITUDE = 51.3890
 
-# Data Directory
+# Folder containing all JSON suggestion files
 DATA_DIR = "dataset"
 ```
 
+---
+
 ## 🛠️ Technical Details
 
-### The Context Vector
-The engine builds a **Context Vector** representing the current state of the world. It includes features like:
-- **Temperature**: `extreme_cold`, `cold`, `cool`, `warm`, `hot`
-- **Weather**: `clear`, `rain`, `snow`, `cloudy`, etc.
-- **Time**: `morning`, `afternoon`, `evening`, `night`, etc.
-- **Social/Mood**: Inferred based on time and weather (e.g., "Rainy Evening" -> `mood_calm`, `location_indoor`).
+### ✔ Context Vector (65+ Features)
 
-### Scoring Algorithm
-Each suggestion in the database has a `preferencesJson` defining its affinity for these features (ranging from `-1.0` to `+1.0`).
+Includes fuzzy scores for:
 
-The score is calculated as:
-$$ Score = \sum (Weight_{group} \times \sum (Context_i \times Suggestion_i)) $$
+**Temperature:**
+`extreme_cold`, `cold`, `cool`, `warm`, `hot`
 
-- **Positive Match**: High Context (1.0) × High Affinity (1.0) = **+Score**
-- **Negative Match**: High Context (1.0) × Negative Affinity (-1.0) = **-Score** (Penalty)
-- **Veto**: If any single feature score is `< -9.0`, the suggestion is immediately discarded (Safety/Feasibility check).
+**Weather:**
+`clear`, `rain`, `drizzle`, `snow`, `fog`, `thunderstorm`, etc.
+
+**Humidity:**
+very_dry → very_humid
+
+**Wind:**
+calm → storm
+
+**Time of Day:**
+late_night → afternoon → evening → night
+
+**Day Type:**
+workday / weekend (Iran logic)
+
+**Season:**
+spring, summer, autumn, winter
+
+**Events:**
+romantic, festival, mourning, cultural_tradition
+
+**Inferred Human Context:**
+
+* mood (calm, thoughtful, relaxed, nostalgic...)
+* social (solo, family, friends...)
+* location (indoor, outdoor, home)
+* energy (very_low → very_high)
+
+---
+
+### ✔ Scoring (Weighted Dot Product)
+
+Every suggestion has `preferencesJson` like:
+
+```json
+{
+  "temp_cold": 1.0,
+  "weather_rain": 0.7,
+  ...
+}
+```
+
+The engine computes:
+
+```
+Score = Σ (Context_i × Preference_i × GroupWeight_i)
+```
+
+Where group weights reflect human priorities:
+
+* Temperature: **1.0**
+* Weather: **0.9**
+* Social/Mood: **0.9**
+* Time/Location: **0.8**
+* Season: **0.5**
+* Energy: **0.5**
+
+---
+
+### ✔ Veto Logic (Safety & Feasibility)
+
+If a suggestion has a **-10.0** weight and the context strongly activates that feature:
+
+* It is **discarded immediately**
+* Example:
+
+  * “Picnic” has `weather_thunderstorm = -10`
+  * If it’s storming → never shown
+
+---
+
+## 📂 Data Folder Structure
+
+```
+dataset/
+├── food_drink/
+├── activity/
+├── media/
+├── clothing/
+└── mood/
+```
+
+Each `.json` file contains an **array of suggestions**.
+
+---
 
 ## 📄 License
-This project is open-source and available for educational and personal use.
+
+This project is open-source and free for personal and educational use.
 
