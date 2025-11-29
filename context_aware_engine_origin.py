@@ -17,7 +17,7 @@ import time
 # Default location: Tehran (can be changed)
 LATITUDE = 35.6892
 LONGITUDE = 51.3890
-DATA_DIR = os.path.join("app", "src", "main", "assets", "recom_data")
+DATA_DIR = "dataset"
 
 # ==================================================================================
 # 1. Feature Definitions & Weights
@@ -528,3 +528,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
