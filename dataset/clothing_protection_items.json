@@ -1,0 +1,164 @@
+[
+    {
+        "text": "دستکش پشمی ضخیم برای حفظ گرمای دست‌ها",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "temp_cool": 0.5,
+            "temp_warm": -0.7,
+            "temp_hot": -10.0,
+            "weather_snow": 1.0,
+            "weather_snow_shower": 0.8,
+            "weather_wind": 0.7,
+            "wind_windy": 0.8,
+            "wind_strong": 1.0,
+            "time_morning": 0.5,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0
+        }
+    },
+    {
+        "text": "شال گردن گرم برای روزهای سرد و بادی",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_wind": 0.7,
+            "wind_windy": 0.9,
+            "wind_strong": 1.0,
+            "weather_snow": 0.9,
+            "weather_rain": 0.3,
+            "season_winter": 1.0,
+            "season_autumn": 0.6,
+            "location_outdoor": 1.0
+        }
+    },
+    {
+        "text": "گتر یا گردن‌پوش برای جلوگیری از نفوذ سرما",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "weather_snow": 1.0,
+            "weather_snow_shower": 0.8,
+            "weather_wind": 0.7,
+            "weather_fog": 0.4,
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.8,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0
+        }
+    },
+    {
+        "text": "گوش‌گیر گرم برای جلوگیری از سرد شدن گوش‌ها",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "temp_cool": 0.4,
+            "wind_windy": 1.0,
+            "wind_strong": 1.0,
+            "weather_snow": 0.8,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0
+        }
+    },
+    {
+        "text": "جوراب پشمی ضخیم برای جلوگیری از یخ‌کردن پا",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_snow": 0.8,
+            "weather_snow_shower": 0.7,
+            "time_morning": 0.5,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "جوراب ضدتعریق برای روزهای گرم و مرطوب",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "humidity_humid": 1.0,
+            "humidity_very_humid": 0.9,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "season_summer": 1.0,
+            "location_outdoor": 0.7,
+            "energy_medium": 0.3
+        }
+    },
+    {
+        "text": "ماسک مناسب روزهای گرد و غبار یا آلودگی",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "weather_dust": 1.0,
+            "weather_smog": 1.0,
+            "weather_fog": 0.3,
+            "weather_cloudy": -0.2,
+            "weather_clear": -0.2,
+            "location_outdoor": 1.0,
+            "location_home": -0.3,
+            "season_winter": 0.3,
+            "energy_low": 0.2
+        }
+    },
+    {
+        "text": "بالم لب برای جلوگیری از ترک لب در سرما و باد",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "wind_windy": 0.7,
+            "wind_strong": 0.9,
+            "weather_snow": 0.8,
+            "weather_clear": 0.3,
+            "humidity_dry": 0.8,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0
+        }
+    },
+    {
+        "text": "حوله خنک‌کننده برای روزهای بسیار گرم",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "humidity_humid": 0.7,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "season_summer": 1.0,
+            "location_outdoor": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "پنکه دستی کوچک برای گرمای شدید",
+        "category": "clothing",
+        "subcategory": "accessories_weather",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "humidity_humid": 0.7,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "season_summer": 1.0,
+            "time_afternoon": 0.9,
+            "location_outdoor": 0.8,
+            "location_indoor": 0.7,
+            "energy_low": 0.4
+        }
+    }
+]

@@ -1,0 +1,178 @@
+[
+    {
+        "text": "کیسه‌گرم سنتی برای گرم کردن پاها در شب‌های سرد",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "temp_cool": 0.6,
+            "temp_warm": -0.6,
+            "weather_snow": 0.7,
+            "weather_cloudy": 0.5,
+            "wind_windy": 0.4,
+            "time_night": 0.9,
+            "time_evening": 0.7,
+            "season_winter": 1.0,
+            "season_autumn": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "پد گرم‌کن دست برای روزهای سرد و بادخیز",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_wind": 0.7,
+            "wind_windy": 0.9,
+            "wind_strong": 1.0,
+            "weather_snow": 0.8,
+            "time_morning": 0.5,
+            "time_evening": 0.6,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "اسپری خنک‌کننده برای گرمای شدید تابستان",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.7,
+            "temp_cool": -0.5,
+            "weather_clear": 0.7,
+            "weather_partly_cloudy": 0.5,
+            "humidity_humid": 0.8,
+            "humidity_very_humid": 1.0,
+            "time_afternoon": 0.9,
+            "season_summer": 1.0,
+            "location_outdoor": 0.7,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "پد یخ ژلی برای کاهش دمای بدن در روزهای داغ",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "temp_cool": -0.4,
+            "weather_clear": 0.7,
+            "humidity_humid": 0.6,
+            "wind_calm": 0.4,
+            "time_afternoon": 0.8,
+            "season_summer": 1.0,
+            "location_home": 0.7,
+            "location_indoor": 0.7,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "روغن‌مالی گرم با روغن کنجد برای دردهای سرمایی",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_extreme_cold": 0.9,
+            "temp_cold": 0.8,
+            "weather_cloudy": 0.4,
+            "humidity_dry": 0.6,
+            "time_night": 0.7,
+            "time_evening": 0.6,
+            "season_winter": 0.8,
+            "location_home": 1.0,
+            "energy_low": 0.5,
+            "energy_medium": 0.3
+        }
+    },
+    {
+        "text": "کمپرس گرم برای گرفتگی عضلات بعد از سرما",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_extreme_cold": 0.8,
+            "temp_cold": 0.8,
+            "weather_snow": 0.5,
+            "wind_windy": 0.4,
+            "time_evening": 0.7,
+            "time_night": 0.6,
+            "season_winter": 0.8,
+            "location_home": 1.0,
+            "energy_low": 0.6,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "محلول الکترولیت ایرانی برای روزهای گرم و رطوبتی",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "humidity_humid": 1.0,
+            "humidity_very_humid": 1.0,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "time_afternoon": 0.7,
+            "season_summer": 1.0,
+            "location_outdoor": 0.6,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "اسپری محافظ پوست برای باد و هوای خشک زمستان",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "humidity_very_dry": 1.0,
+            "humidity_dry": 0.8,
+            "temp_extreme_cold": 0.8,
+            "temp_cold": 0.7,
+            "weather_wind": 0.8,
+            "wind_windy": 0.9,
+            "season_winter": 1.0,
+            "time_morning": 0.5,
+            "location_outdoor": 0.7,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "پد گرمایی گردن برای رفع خشکی و کشیدگی در سرما",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_extreme_cold": 0.9,
+            "temp_cold": 0.9,
+            "weather_cloudy": 0.4,
+            "weather_snow": 0.6,
+            "wind_windy": 0.5,
+            "season_winter": 0.9,
+            "season_autumn": 0.6,
+            "location_home": 1.0,
+            "time_evening": 0.6,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "کرم ضدآفتاب ایرانی برای آفتاب تند تابستان",
+        "category": "clothing",
+        "subcategory": "protection_items",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "weather_clear": 1.0,
+            "weather_partly_cloudy": 0.7,
+            "humidity_humid": 0.4,
+            "season_summer": 1.0,
+            "season_spring": 0.5,
+            "location_outdoor": 1.0,
+            "time_afternoon": 0.9,
+            "energy_low": 0.3
+        }
+    }
+]

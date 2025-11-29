@@ -1,0 +1,195 @@
+[
+    {
+        "text": "چند دقیقه نفس عمیق با صدای باران برای آرامش",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_rain": 1.0,
+            "weather_drizzle": 0.8,
+            "weather_fog": 0.6,
+            "temp_cool": 0.4,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "season_autumn": 0.7,
+            "season_winter": 0.6,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.7,
+            "mood_thoughtful": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.6,
+            "energy_very_low": 0.4
+        }
+    },
+    {
+        "text": "گوش دادن به نوای نی ایرانی برای آرام کردن ذهن",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_fog": 0.5,
+            "weather_clear": 0.4,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "temp_cool": 0.3,
+            "season_autumn": 0.8,
+            "mood_thoughtful": 1.0,
+            "mood_nostalgic": 0.9,
+            "mood_stressed": 0.7,
+            "location_home": 0.9,
+            "location_indoor": 0.8,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "چای بهار‌نارنج برای آرامش شبانه",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.7,
+            "temp_cool": 0.5,
+            "temp_cold": 0.4,
+            "time_evening": 1.0,
+            "time_night": 0.9,
+            "season_spring": 0.6,
+            "season_autumn": 0.7,
+            "mood_stressed": 0.9,
+            "mood_sad": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "حمام گرم کوتاه برای ریلکس شدن بعد از روز سخت",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "temp_cold": 0.9,
+            "temp_extreme_cold": 1.0,
+            "weather_snow": 0.8,
+            "weather_cloudy": 0.5,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "season_winter": 0.9,
+            "season_autumn": 0.7,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.7,
+            "location_home": 1.0,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "مدیتیشن پنج دقیقه‌ای با توجه به تنفس",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.7,
+            "time_morning": 0.6,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "season_all": 0.3,
+            "mood_stressed": 1.0,
+            "mood_thoughtful": 0.8,
+            "mood_sad": 0.6,
+            "location_home": 1.0,
+            "location_indoor": 0.9,
+            "energy_low": 0.6
+        }
+    },
+    {
+        "text": "شنیدن صدای طبیعت ایرانی؛ باد در جنگل‌های شمال",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_fog": 0.7,
+            "weather_clear": 0.5,
+            "time_evening": 0.7,
+            "time_night": 0.6,
+            "season_spring": 0.6,
+            "season_autumn": 0.7,
+            "mood_thoughtful": 0.9,
+            "mood_stressed": 0.7,
+            "location_home": 0.9,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "کش و مک آهسته برای آرام کردن تنش بدن",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_rain": 0.6,
+            "weather_cloudy": 0.5,
+            "weather_clear": 0.4,
+            "time_morning": 0.5,
+            "time_afternoon": 0.5,
+            "time_evening": 0.7,
+            "mood_stressed": 0.8,
+            "mood_sad": 0.6,
+            "location_home": 0.9,
+            "location_indoor": 0.8,
+            "energy_low": 0.5,
+            "energy_very_low": 0.4
+        }
+    },
+    {
+        "text": "گوش دادن به موسیقی آرام محلی خراسان",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_fog": 0.6,
+            "weather_rain": 0.5,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "season_autumn": 0.8,
+            "mood_thoughtful": 1.0,
+            "mood_nostalgic": 0.8,
+            "mood_stressed": 0.6,
+            "location_home": 0.9,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "نشستن کنار پنجره و نوشیدن دمنوش بابونه",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_fog": 0.6,
+            "weather_rain": 0.8,
+            "temp_cool": 0.4,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "season_winter": 0.7,
+            "season_autumn": 0.8,
+            "mood_stressed": 0.8,
+            "mood_sad": 0.7,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "خواندن یک صفحه کتاب آرام‌بخش قبل از خواب",
+        "category": "mood",
+        "subcategory": "relaxation",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_clear": 0.3,
+            "weather_rain": 0.6,
+            "time_evening": 1.0,
+            "time_night": 1.0,
+            "temp_cool": 0.4,
+            "season_all": 0.3,
+            "mood_stressed": 0.7,
+            "mood_sad": 0.6,
+            "mood_thoughtful": 0.7,
+            "location_home": 1.0,
+            "location_indoor": 0.8,
+            "energy_low": 0.5
+        }
+    }
+]

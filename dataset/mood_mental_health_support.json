@@ -1,0 +1,184 @@
+[
+    {
+        "text": "نوردرمانی کنار پنجره برای جبران کم‌نوری روزهای زمستان",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_cloudy": 1.0,
+            "weather_fog": 0.9,
+            "weather_snow": 0.6,
+            "temp_cold": 0.5,
+            "time_morning": 1.0,
+            "season_winter": 1.0,
+            "season_autumn": 0.6,
+            "mood_sad": 0.9,
+            "mood_stressed": 0.6,
+            "mood_nostalgic": 0.4,
+            "location_indoor": 1.0,
+            "location_home": 0.9,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "چند دقیقه صحبت با یک عزیز برای کاهش تنهایی",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_rain": 0.5,
+            "weather_cloudy": 0.7,
+            "weather_clear": 0.3,
+            "time_evening": 0.8,
+            "time_night": 0.6,
+            "season_all": 0.3,
+            "mood_sad": 1.0,
+            "mood_stressed": 0.7,
+            "mood_nostalgic": 0.9,
+            "location_home": 1.0,
+            "energy_low": 0.4,
+            "social_solo": 1.0
+        }
+    },
+    {
+        "text": "نوشتن احساسات روی کاغذ برای کاهش اضطراب",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.7,
+            "weather_clear": 0.4,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.8,
+            "mood_thoughtful": 0.7,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "جرعه‌ای دمنوش گل‌گاوزبان برای آرام‌کردن دلشوره",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_rain": 0.7,
+            "weather_fog": 0.6,
+            "weather_cloudy": 0.5,
+            "temp_cool": 0.4,
+            "time_evening": 0.9,
+            "time_night": 0.9,
+            "season_autumn": 0.7,
+            "season_winter": 0.8,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.7,
+            "mood_thoughtful": 0.5,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "پنج دقیقه مراقبه بدن‌یابی برای کاهش تنش",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.7,
+            "weather_rain": 0.8,
+            "time_morning": 0.6,
+            "time_evening": 0.7,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.6,
+            "mood_thoughtful": 0.8,
+            "location_indoor": 0.9,
+            "location_home": 1.0,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "تنفس چهار-شش برای کاهش تپش و اضطراب",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_rain": 0.5,
+            "weather_cloudy": 0.6,
+            "weather_clear": 0.3,
+            "time_evening": 0.8,
+            "time_night": 0.8,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.5,
+            "location_home": 1.0,
+            "location_indoor": 0.9,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "خواب نیم‌ساعته کوتاه برای تنظیم خلق و انرژی",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_clear": 0.3,
+            "weather_rain": 0.4,
+            "time_afternoon": 1.0,
+            "time_evening": 0.7,
+            "mood_stressed": 0.8,
+            "mood_sad": 0.7,
+            "mood_relaxed": -0.3,
+            "location_home": 1.0,
+            "energy_low": 0.9,
+            "energy_very_low": 1.0
+        }
+    },
+    {
+        "text": "نوشتن برنامه فردا برای کاهش اضطراب آینده‌نگر",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.6,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "season_all": 0.3,
+            "mood_stressed": 1.0,
+            "mood_thoughtful": 0.7,
+            "location_home": 0.9,
+            "location_indoor": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "ده دقیقه سکوت کامل برای آرام‌کردن ذهن شلوغ",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_fog": 0.7,
+            "weather_rain": 0.6,
+            "time_night": 1.0,
+            "time_evening": 0.8,
+            "mood_stressed": 1.0,
+            "mood_thoughtful": 0.8,
+            "mood_nostalgic": 0.5,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "تماشای طبیعت زنده؛ مثل ماهی‌ها یا گیاهان خانه",
+        "category": "mood",
+        "subcategory": "mental_health_support",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_fog": 0.5,
+            "weather_clear": 0.6,
+            "time_afternoon": 0.7,
+            "time_evening": 0.8,
+            "season_spring": 0.6,
+            "mood_sad": 0.7,
+            "mood_stressed": 0.6,
+            "mood_thoughtful": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    }
+]

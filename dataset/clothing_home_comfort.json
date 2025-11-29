@@ -1,0 +1,174 @@
+[
+    {
+        "text": "پتو سنگین ایرانی برای آرامش در شب‌های سرد زمستان",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_snow": 0.7,
+            "weather_cloudy": 0.5,
+            "wind_windy": 0.4,
+            "humidity_dry": 0.4,
+            "time_night": 1.0,
+            "time_evening": 0.8,
+            "season_winter": 1.0,
+            "season_autumn": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "بخاری برقی کوچک برای گرم‌کردن اتاق در روزهای سرد",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "temp_cool": 0.6,
+            "temp_warm": -0.6,
+            "weather_cloudy": 0.4,
+            "weather_snow": 0.8,
+            "time_morning": 0.5,
+            "time_evening": 0.7,
+            "season_winter": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "مرطوب‌کننده هوا برای خشکی زمستان و پوست حساس",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "humidity_very_dry": 1.0,
+            "humidity_dry": 0.9,
+            "temp_extreme_cold": 0.7,
+            "temp_cold": 0.6,
+            "weather_clear": 0.3,
+            "weather_cloudy": 0.4,
+            "season_winter": 0.9,
+            "location_home": 1.0,
+            "time_evening": 0.5,
+            "energy_low": 0.2
+        }
+    },
+    {
+        "text": "دستگاه تهویه کوچک برای کاهش رطوبت شب‌های شرجی",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "humidity_humid": 1.0,
+            "humidity_very_humid": 1.0,
+            "temp_hot": 0.8,
+            "temp_warm": 0.7,
+            "weather_clear": 0.6,
+            "time_night": 0.7,
+            "season_summer": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "فن دستی خانگی برای روزهای داغ و بدون باد",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.7,
+            "wind_calm": 1.0,
+            "weather_clear": 0.8,
+            "humidity_humid": 0.4,
+            "time_afternoon": 0.8,
+            "season_summer": 1.0,
+            "location_home": 0.9,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "نور زرد گرم برای ایجاد فضای دنج در شب‌های بارانی",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "weather_rain": 1.0,
+            "weather_drizzle": 0.8,
+            "weather_cloudy": 0.6,
+            "weather_fog": 0.5,
+            "temp_cool": 0.4,
+            "time_evening": 1.0,
+            "time_night": 0.9,
+            "season_autumn": 0.7,
+            "season_winter": 0.8,
+            "location_home": 1.0,
+            "energy_low": 0.4,
+            "energy_medium": 0.2
+        }
+    },
+    {
+        "text": "شمع معطر ایرانی برای آرامش در هواهای ابری",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_rain": 0.5,
+            "weather_fog": 0.6,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "temp_cool": 0.4,
+            "season_autumn": 0.7,
+            "location_home": 1.0,
+            "energy_low": 0.3,
+            "mood_calm": 0.6
+        }
+    },
+    {
+        "text": "پتو مسافرتی سبک برای شب‌های خنک تابستان در شمال",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "temp_cool": 0.7,
+            "temp_warm": 0.4,
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "humidity_humid": 0.6,
+            "season_summer": 0.8,
+            "season_spring": 0.6,
+            "location_home": 0.7,
+            "location_outdoor": 0.6,
+            "time_night": 0.7,
+            "energy_low": 0.2
+        }
+    },
+    {
+        "text": "پد ضدتعریق تشک برای گرمای تابستان",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "humidity_humid": 0.8,
+            "weather_clear": 0.6,
+            "wind_calm": 0.4,
+            "season_summer": 1.0,
+            "location_home": 1.0,
+            "time_night": 0.8,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "پتو برقی کم‌مصرف برای شب‌های بسیار سرد",
+        "category": "clothing",
+        "subcategory": "home_comfort",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_snow": 0.8,
+            "weather_cloudy": 0.5,
+            "time_night": 1.0,
+            "time_evening": 0.8,
+            "season_winter": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    }
+]

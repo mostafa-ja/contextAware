@@ -1,0 +1,193 @@
+[
+    {
+        "text": "چکمه چرمی کردستانی برای برف و باد سرد",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_snow": 1.0,
+            "weather_snow_shower": 1.0,
+            "weather_cloudy": 0.5,
+            "wind_windy": 0.8,
+            "wind_strong": 1.0,
+            "humidity_dry": 0.4,
+            "season_winter": 1.0,
+            "season_autumn": 0.6,
+            "time_morning": 0.5,
+            "location_outdoor": 1.0,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "دمپایی ابری خوزستانی برای گرمای شدید",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.9,
+            "temp_cool": -0.5,
+            "weather_clear": 0.8,
+            "weather_partly_cloudy": 0.7,
+            "humidity_very_humid": 0.9,
+            "wind_calm": 0.5,
+            "season_summer": 1.0,
+            "season_spring": 0.4,
+            "location_outdoor": 0.7,
+            "location_indoor": 0.6,
+            "time_afternoon": 0.8,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "کفش کوه‌نوردی تبریز برای مسیرهای سنگی و سرد",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_extreme_cold": 0.9,
+            "temp_cold": 0.7,
+            "temp_cool": 0.5,
+            "weather_clear": 0.5,
+            "weather_cloudy": 0.5,
+            "weather_snow": 0.8,
+            "wind_breeze": 0.5,
+            "wind_windy": 0.7,
+            "season_winter": 0.8,
+            "season_autumn": 0.6,
+            "location_outdoor": 1.0,
+            "energy_high": 0.8,
+            "energy_very_high": 1.0,
+            "time_morning": 0.6
+        }
+    },
+    {
+        "text": "صندل بلوچ‌دوزی برای هوای گرم و خشک",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "temp_cool": -0.4,
+            "weather_clear": 0.8,
+            "weather_partly_cloudy": 0.5,
+            "humidity_dry": 0.9,
+            "humidity_humid": -0.8,
+            "season_summer": 1.0,
+            "time_afternoon": 0.7,
+            "location_outdoor": 0.8,
+            "energy_low": 0.2
+        }
+    },
+    {
+        "text": "چکمه بارانی شمالی برای روزهای بارانی و گل‌آلود",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "weather_rain": 1.0,
+            "weather_drizzle": 0.9,
+            "weather_cloudy": 0.6,
+            "weather_fog": 0.3,
+            "temp_cool": 0.4,
+            "temp_cold": 0.5,
+            "wind_breeze": 0.5,
+            "season_autumn": 0.8,
+            "season_winter": 0.6,
+            "location_outdoor": 1.0,
+            "energy_medium": 0.3,
+            "time_morning": 0.5
+        }
+    },
+    {
+        "text": "کفش کتانی مشهدی با رویه تنفسی برای پیاده‌روی روزانه",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_cool": 0.5,
+            "temp_warm": 0.7,
+            "temp_hot": 0.4,
+            "weather_clear": 0.5,
+            "weather_cloudy": 0.4,
+            "humidity_comfortable": 0.5,
+            "humidity_humid": -0.3,
+            "wind_breeze": 0.4,
+            "season_spring": 0.7,
+            "season_autumn": 0.6,
+            "location_outdoor": 0.8,
+            "location_indoor": 0.7,
+            "energy_medium": 0.6,
+            "time_afternoon": 0.5
+        }
+    },
+    {
+        "text": "گیوه کرمانشاهی سبک برای روزهای گرم و خشک",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_hot": 0.9,
+            "temp_warm": 0.8,
+            "temp_cool": -0.4,
+            "weather_clear": 0.7,
+            "weather_partly_cloudy": 0.6,
+            "humidity_dry": 0.9,
+            "humidity_very_dry": 1.0,
+            "wind_breeze": 0.4,
+            "season_summer": 1.0,
+            "location_outdoor": 0.8,
+            "energy_low": 0.3,
+            "time_morning": 0.5
+        }
+    },
+    {
+        "text": "دمپایی اتاقی ایرانی برای شب‌های سرد داخل خانه",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_extreme_cold": 0.7,
+            "temp_cold": 0.6,
+            "temp_cool": 0.4,
+            "weather_cloudy": 0.4,
+            "weather_snow": 0.5,
+            "location_home": 1.0,
+            "location_indoor": 0.9,
+            "season_winter": 0.7,
+            "time_evening": 0.7,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "کفش چرمی دست‌دوز تبریز برای هوای خنک و رسمی",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_cool": 0.7,
+            "temp_warm": 0.3,
+            "weather_clear": 0.5,
+            "weather_cloudy": 0.5,
+            "wind_breeze": 0.3,
+            "season_autumn": 0.8,
+            "season_spring": 0.6,
+            "location_outdoor": 0.7,
+            "location_indoor": 0.7,
+            "time_afternoon": 0.6,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "کفش ضدلغزش برای یخبندان و کوچه‌های لیز زمستانی",
+        "category": "clothing",
+        "subcategory": "footwear",
+        "preferencesJson": {
+            "temp_extreme_cold": 1.0,
+            "temp_cold": 0.9,
+            "weather_snow": 1.0,
+            "weather_snow_shower": 1.0,
+            "weather_fog": 0.4,
+            "wind_windy": 0.7,
+            "humidity_very_dry": 0.4,
+            "season_winter": 1.0,
+            "location_outdoor": 1.0,
+            "time_morning": 0.5,
+            "energy_medium": 0.4
+        }
+    }
+]

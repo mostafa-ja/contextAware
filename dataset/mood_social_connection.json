@@ -1,0 +1,189 @@
+[
+    {
+        "text": "ارسال یک پیام محبت‌آمیز کوتاه به یکی از عزیزان",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_cloudy": 0.4,
+            "weather_rain": 0.5,
+            "weather_clear": 0.3,
+            "time_morning": 0.6,
+            "time_evening": 0.8,
+            "season_all": 0.3,
+            "mood_nostalgic": 0.9,
+            "mood_sad": 0.7,
+            "mood_stressed": 0.5,
+            "social_solo": 1.0,
+            "location_home": 0.9,
+            "energy_low": 0.4,
+            "energy_medium": 0.3
+        }
+    },
+    {
+        "text": "تماس کوتاه با پدر یا مادر برای دلگرمی",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_rain": 0.5,
+            "weather_cloudy": 0.6,
+            "time_evening": 1.0,
+            "time_night": 0.7,
+            "day_weekend": 0.7,
+            "season_all": 0.3,
+            "mood_nostalgic": 1.0,
+            "mood_sad": 0.8,
+            "mood_stressed": 0.6,
+            "social_solo": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "گذاشتن یک قرار کوچک چای با یکی از دوستان",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_clear": 0.7,
+            "weather_partly_cloudy": 0.6,
+            "weather_cloudy": 0.4,
+            "time_afternoon": 0.8,
+            "time_evening": 0.7,
+            "day_weekend": 1.0,
+            "season_spring": 0.6,
+            "season_autumn": 0.5,
+            "mood_happy": 0.7,
+            "mood_stressed": 0.5,
+            "social_friends": 1.0,
+            "location_indoor": 0.8,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "یک پیام صوتی گرم و صمیمی برای یک دوست قدیمی",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.7,
+            "weather_fog": 0.5,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "season_autumn": 0.6,
+            "mood_nostalgic": 1.0,
+            "mood_sad": 0.8,
+            "mood_thoughtful": 0.7,
+            "social_solo": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "هماهنگ‌کردن یک شام ساده خانوادگی",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_clear": 0.5,
+            "weather_cloudy": 0.4,
+            "weather_rain": 0.6,
+            "time_evening": 1.0,
+            "day_weekend": 1.0,
+            "season_winter": 0.6,
+            "season_autumn": 0.5,
+            "mood_happy": 0.7,
+            "mood_sad": 0.4,
+            "social_family": 1.0,
+            "location_home": 1.0,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "گفت‌وگوی ۱۰ دقیقه‌ای با یکی از همکاران برای همدلی",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "time_afternoon": 0.7,
+            "day_workday": 1.0,
+            "mood_stressed": 0.7,
+            "mood_thoughtful": 0.6,
+            "social_solo": 1.0,
+            "location_indoor": 0.9,
+            "energy_low": 0.3,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "ارسال یک عکس خاطره‌انگیز خانوادگی برای صمیمیت بیشتر",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.6,
+            "weather_clear": 0.4,
+            "time_evening": 0.9,
+            "season_autumn": 0.6,
+            "season_winter": 0.5,
+            "mood_nostalgic": 1.0,
+            "mood_sad": 0.7,
+            "social_family": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "هماهنگ‌کردن یک گپ کوتاه تصویری با خواهر یا برادر",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_rain": 0.6,
+            "weather_cloudy": 0.5,
+            "time_evening": 0.9,
+            "time_night": 0.7,
+            "day_weekend": 0.8,
+            "mood_sad": 0.6,
+            "mood_stressed": 0.5,
+            "social_family": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "فرستادن یک تعریف صادقانه به یکی از دوستان",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.4,
+            "time_afternoon": 0.6,
+            "time_evening": 0.8,
+            "mood_happy": 0.8,
+            "mood_stressed": 0.4,
+            "social_friends": 1.0,
+            "location_home": 0.8,
+            "energy_low": 0.3,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "دعوت یک نفر به قدم‌زدن کوتاه در هوای خوب",
+        "category": "mood",
+        "subcategory": "social_connection",
+        "preferencesJson": {
+            "weather_clear": 1.0,
+            "weather_partly_cloudy": 0.9,
+            "weather_cloudy": 0.4,
+            "temp_cool": 0.6,
+            "time_afternoon": 0.9,
+            "time_evening": 0.7,
+            "season_spring": 1.0,
+            "mood_happy": 0.8,
+            "mood_stressed": 0.5,
+            "social_couple": 0.8,
+            "social_friends": 1.0,
+            "location_outdoor": 1.0,
+            "energy_medium": 0.6
+        }
+    }
+]

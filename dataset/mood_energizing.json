@@ -1,0 +1,199 @@
+[
+    {
+        "text": "دو دقیقه آب سرد به صورت برای بیدار شدن فوری",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "temp_warm": 0.4,
+            "temp_cool": 0.5,
+            "temp_hot": 0.7,
+            "time_morning": 1.0,
+            "time_afternoon": 0.5,
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.3,
+            "season_summer": 0.7,
+            "mood_low_energy": 1.0,
+            "mood_stressed": 0.5,
+            "location_home": 0.8,
+            "energy_very_low": 0.8,
+            "energy_low": 0.7
+        }
+    },
+    {
+        "text": "ده دقیقه راه‌رفتن سریع در هوای خنک صبح",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "temp_cool": 1.0,
+            "temp_warm": 0.6,
+            "weather_clear": 1.0,
+            "weather_partly_cloudy": 0.8,
+            "weather_fog": -0.3,
+            "wind_breeze": 0.5,
+            "time_early_morning": 1.0,
+            "time_morning": 0.9,
+            "season_spring": 0.8,
+            "season_autumn": 0.7,
+            "mood_low_energy": 0.9,
+            "mood_sad": 0.4,
+            "location_outdoor": 1.0,
+            "energy_low": 0.8,
+            "energy_medium": 0.6
+        }
+    },
+    {
+        "text": "پخش یک آهنگ ریتمیک ایرانی برای بالا بردن انرژی",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "weather_clear": 0.8,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.3,
+            "time_morning": 0.7,
+            "time_afternoon": 0.8,
+            "time_evening": 0.7,
+            "season_spring": 0.6,
+            "season_summer": 0.7,
+            "mood_low_energy": 0.9,
+            "mood_sad": 0.5,
+            "mood_stressed": 0.6,
+            "location_indoor": 0.9,
+            "location_home": 0.8,
+            "energy_low": 0.7
+        }
+    },
+    {
+        "text": "سه دقیقه کشش ایستاده برای فعال‌کردن بدن",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.3,
+            "time_morning": 0.8,
+            "time_afternoon": 0.7,
+            "time_evening": 0.6,
+            "season_all": 0.3,
+            "mood_low_energy": 0.8,
+            "mood_thoughtful": 0.4,
+            "location_indoor": 1.0,
+            "location_home": 0.9,
+            "energy_low": 0.7,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "کمی هوای تازه کنار پنجره برای پاک‌کردن ذهن",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "temp_cool": 0.7,
+            "temp_cold": 0.4,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "weather_cloudy": 0.3,
+            "time_morning": 0.8,
+            "time_evening": 0.6,
+            "season_autumn": 0.7,
+            "mood_stressed": 0.6,
+            "mood_low_energy": 0.8,
+            "location_home": 1.0,
+            "location_indoor": 0.8,
+            "energy_low": 0.7
+        }
+    },
+    {
+        "text": "یک آهنگ کوبشی سنتی برای بالا بردن نبض انرژی",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "weather_clear": 0.7,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.3,
+            "time_afternoon": 0.8,
+            "time_evening": 0.7,
+            "season_summer": 0.7,
+            "season_spring": 0.6,
+            "mood_sad": 0.5,
+            "mood_low_energy": 0.9,
+            "location_indoor": 1.0,
+            "energy_low": 0.7,
+            "energy_medium": 0.6
+        }
+    },
+    {
+        "text": "چند حرکت کوتاه هوازی در خانه برای بیدارشدن بدن",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "weather_rain": -0.2,
+            "weather_clear": 0.5,
+            "weather_cloudy": 0.4,
+            "time_morning": 0.9,
+            "time_afternoon": 0.8,
+            "season_all": 0.3,
+            "mood_low_energy": 1.0,
+            "location_home": 1.0,
+            "energy_low": 0.7,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "یک لیوان آب خنک با چند قطره لیمو برای انرژی فوری",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "temp_hot": 1.0,
+            "temp_warm": 0.8,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "humidity_humid": 0.5,
+            "time_morning": 0.7,
+            "time_afternoon": 0.9,
+            "season_summer": 1.0,
+            "mood_low_energy": 0.9,
+            "location_home": 0.7,
+            "location_indoor": 0.6,
+            "energy_low": 0.8
+        }
+    },
+    {
+        "text": "نفس‌گیری فعال: چهار ثانیه دم، دو ثانیه نگه‌داشتن، چهار ثانیه بازدم",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "weather_clear": 0.5,
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.7,
+            "time_morning": 0.8,
+            "time_evening": 0.6,
+            "season_autumn": 0.6,
+            "season_winter": 0.5,
+            "mood_low_energy": 1.0,
+            "mood_stressed": 0.6,
+            "location_home": 1.0,
+            "energy_very_low": 0.8,
+            "energy_low": 0.7
+        }
+    },
+    {
+        "text": "پیاده‌روی کوتاه داخل پاساژ یا راهرو در روزهای بارانی",
+        "category": "mood",
+        "subcategory": "energizing",
+        "preferencesJson": {
+            "weather_rain": 1.0,
+            "weather_drizzle": 0.8,
+            "weather_cloudy": 0.5,
+            "temp_cool": 0.3,
+            "wind_windy": -0.3,
+            "time_afternoon": 0.8,
+            "time_evening": 0.7,
+            "season_autumn": 0.7,
+            "mood_low_energy": 0.8,
+            "location_indoor": 1.0,
+            "location_home": -0.2,
+            "energy_low": 0.6,
+            "energy_medium": 0.5
+        }
+    }
+]

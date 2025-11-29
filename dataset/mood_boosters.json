@@ -1,0 +1,200 @@
+[
+    {
+        "text": "چای دارچین داغ و یک شمع روشن برای تقویت حال در روزهای ابری",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_cloudy": 0.8,
+            "weather_rain": 0.9,
+            "weather_fog": 0.7,
+            "temp_cold": 0.7,
+            "temp_cool": 0.6,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "season_autumn": 0.8,
+            "season_winter": 0.9,
+            "mood_sad": 0.9,
+            "mood_stressed": 0.6,
+            "mood_thoughtful": 0.5,
+            "location_home": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "نوشتن سه چیز خوب امروز برای تقویت امید",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.6,
+            "weather_clear": 0.3,
+            "time_morning": 0.7,
+            "time_evening": 0.6,
+            "season_all": 0.3,
+            "mood_stressed": 0.7,
+            "mood_sad": 0.8,
+            "mood_nostalgic": 0.6,
+            "mood_thoughtful": 0.7,
+            "location_home": 0.9,
+            "location_indoor": 0.8,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "چند دقیقه نور آفتاب گرفتن کنار پنجره برای بالا بردن انرژی",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_clear": 1.0,
+            "weather_partly_cloudy": 0.7,
+            "weather_cloudy": -0.3,
+            "temp_cool": 0.4,
+            "time_morning": 0.9,
+            "time_afternoon": 0.8,
+            "season_spring": 0.7,
+            "season_autumn": 0.5,
+            "mood_low_energy": 0.9,
+            "mood_sad": 0.6,
+            "location_home": 0.7,
+            "location_indoor": 0.8,
+            "energy_low": 0.6
+        }
+    },
+    {
+        "text": "یک ربع رقص سبک با موسیقی ایرانی برای بالا بردن حال",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_clear": 0.6,
+            "weather_cloudy": 0.4,
+            "weather_rain": 0.3,
+            "temp_warm": 0.2,
+            "temp_cool": 0.4,
+            "time_afternoon": 0.7,
+            "time_evening": 0.8,
+            "season_winter": 0.5,
+            "mood_stressed": 0.7,
+            "mood_sad": 0.6,
+            "mood_happy": 0.8,
+            "location_home": 1.0,
+            "energy_low": 0.4,
+            "energy_medium": 0.6
+        }
+    },
+    {
+        "text": "دم‌کرده به‌لیمو برای آرامش و بالا بردن خلق",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_fog": 0.5,
+            "weather_rain": 0.7,
+            "temp_cold": 0.5,
+            "temp_cool": 0.4,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "season_autumn": 0.7,
+            "season_winter": 0.8,
+            "mood_stressed": 0.8,
+            "mood_thoughtful": 0.6,
+            "mood_sad": 0.7,
+            "location_home": 0.9,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "چند دقیقه کشش کوتاه برای ریلکس کردن و بهبود حال",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.6,
+            "temp_cool": 0.4,
+            "time_morning": 0.6,
+            "time_afternoon": 0.6,
+            "time_evening": 0.5,
+            "mood_stressed": 0.8,
+            "mood_low_energy": 0.5,
+            "location_home": 0.9,
+            "location_indoor": 0.8,
+            "energy_low": 0.4,
+            "energy_medium": 0.3
+        }
+    },
+    {
+        "text": "پادکست انگیزشی کوتاه برای شروع روزهای ابری",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_cloudy": 0.8,
+            "weather_fog": 0.6,
+            "weather_rain": 0.4,
+            "time_morning": 0.9,
+            "time_afternoon": 0.6,
+            "season_winter": 0.6,
+            "mood_low_energy": 0.7,
+            "mood_sad": 0.6,
+            "location_indoor": 0.9,
+            "location_home": 0.8,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "چند دقیقه تنفس عمیق کنار پنجره باز در هوای خنک",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "temp_cool": 0.8,
+            "temp_cold": 0.5,
+            "weather_clear": 0.6,
+            "weather_partly_cloudy": 0.5,
+            "weather_fog": 0.4,
+            "time_morning": 0.8,
+            "time_evening": 0.7,
+            "season_autumn": 0.7,
+            "mood_stressed": 0.9,
+            "mood_thoughtful": 0.6,
+            "location_home": 0.9,
+            "energy_low": 0.5
+        }
+    },
+    {
+        "text": "۱۵ دقیقه جمع‌وجور کردن اتاق برای بهتر شدن حال",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.6,
+            "weather_clear": 0.3,
+            "time_afternoon": 0.7,
+            "time_morning": 0.5,
+            "season_all": 0.3,
+            "mood_stressed": 0.6,
+            "mood_sad": 0.5,
+            "location_home": 1.0,
+            "energy_low": 0.4,
+            "energy_medium": 0.6
+        }
+    },
+    {
+        "text": "گوش دادن به یک آهنگ خوشحال‌کننده ایرانی برای بالا بردن خلق",
+        "category": "mood",
+        "subcategory": "boosters",
+        "preferencesJson": {
+            "weather_clear": 0.7,
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.4,
+            "time_afternoon": 0.7,
+            "time_evening": 0.8,
+            "season_spring": 0.6,
+            "season_autumn": 0.5,
+            "mood_sad": 0.7,
+            "mood_stressed": 0.5,
+            "mood_happy": 1.0,
+            "location_indoor": 0.8,
+            "location_home": 0.7,
+            "energy_low": 0.4
+        }
+    }
+]

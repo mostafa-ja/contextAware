@@ -1,0 +1,185 @@
+[
+    {
+        "text": "بلوک ۲۵ دقیقه پومودورو با یک استراحت کوتاه",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_clear": 0.4,
+            "weather_rain": 0.6,
+            "time_morning": 1.0,
+            "time_afternoon": 0.8,
+            "time_evening": 0.5,
+            "season_all": 0.3,
+            "mood_thoughtful": 0.7,
+            "mood_stressed": 0.6,
+            "mood_relaxed": 0.4,
+            "location_home": 0.8,
+            "location_indoor": 1.0,
+            "energy_medium": 0.8,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "یک لیوان چای ایرانی برای شروع تمرکز صبحگاهی",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.5,
+            "time_morning": 1.0,
+            "time_early_morning": 0.9,
+            "season_autumn": 0.6,
+            "season_winter": 0.7,
+            "mood_low_energy": 0.6,
+            "mood_stressed": 0.5,
+            "location_home": 0.9,
+            "energy_low": 0.5,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "مرتب‌کردن میز کار برای افزایش تمرکز ذهن",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_clear": 0.4,
+            "weather_rain": 0.7,
+            "time_afternoon": 0.8,
+            "time_morning": 0.6,
+            "mood_stressed": 0.7,
+            "mood_thoughtful": 0.5,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_low": 0.4,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "پخش موسیقی لوفای ایرانی برای تمرکز عمیق",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_rain": 0.6,
+            "weather_clear": 0.4,
+            "time_afternoon": 0.8,
+            "time_evening": 0.7,
+            "season_winter": 0.6,
+            "mood_thoughtful": 0.9,
+            "mood_relaxed": 0.7,
+            "location_indoor": 1.0,
+            "location_home": 0.8,
+            "energy_medium": 0.6
+        }
+    },
+    {
+        "text": "نوشتن فهرست سه کار مهم امروز",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.5,
+            "time_morning": 0.9,
+            "time_afternoon": 0.6,
+            "mood_stressed": 0.8,
+            "mood_thoughtful": 0.7,
+            "location_home": 0.9,
+            "location_indoor": 1.0,
+            "energy_low": 0.4,
+            "energy_medium": 0.7
+        }
+    },
+    {
+        "text": "۱۰ دقیقه مطالعه عمیق بدون موبایل",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_rain": 0.6,
+            "weather_clear": 0.4,
+            "time_evening": 0.7,
+            "time_night": 0.6,
+            "mood_thoughtful": 0.8,
+            "location_home": 0.9,
+            "location_indoor": 1.0,
+            "energy_medium": 0.5,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "تنظیم نور گرم اتاق برای تمرکز بهتر در عصر",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.6,
+            "weather_fog": 0.4,
+            "time_evening": 1.0,
+            "time_night": 0.7,
+            "season_autumn": 0.7,
+            "mood_thoughtful": 0.6,
+            "mood_stressed": 0.5,
+            "location_home": 1.0,
+            "energy_low": 0.3,
+            "energy_medium": 0.4
+        }
+    },
+    {
+        "text": "۱۵ دقیقه کار بدون حواس‌پرتی و خاموش‌کردن نوتیف‌ها",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.7,
+            "time_afternoon": 0.8,
+            "time_morning": 0.7,
+            "mood_stressed": 0.6,
+            "mood_thoughtful": 0.7,
+            "location_home": 0.8,
+            "location_indoor": 1.0,
+            "energy_medium": 0.7
+        }
+    },
+    {
+        "text": "استفاده از تایمر ۱۰ دقیقه‌ای برای شروع کار سخت",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_fog": 0.4,
+            "weather_rain": 0.6,
+            "time_morning": 0.7,
+            "time_afternoon": 0.8,
+            "season_all": 0.3,
+            "mood_stressed": 0.6,
+            "mood_low_energy": 0.5,
+            "location_home": 0.8,
+            "location_indoor": 1.0,
+            "energy_medium": 0.6
+        }
+    },
+    {
+        "text": "تنظیم دمای اتاق روی حد راحتی برای تمرکز بیشتر",
+        "category": "mood",
+        "subcategory": "productivity_focus",
+        "preferencesJson": {
+            "temp_cool": 0.6,
+            "temp_warm": 0.5,
+            "temp_hot": -0.5,
+            "humidity_humid": -0.4,
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "time_afternoon": 0.7,
+            "time_evening": 0.6,
+            "mood_stressed": 0.6,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_medium": 0.5
+        }
+    }
+]

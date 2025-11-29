@@ -1,0 +1,180 @@
+[
+    {
+        "text": "تنظیم نور گرم اتاق برای ایجاد حس آرامش",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_rain": 0.7,
+            "weather_fog": 0.6,
+            "time_evening": 1.0,
+            "time_night": 0.8,
+            "season_autumn": 0.7,
+            "season_winter": 0.7,
+            "mood_stressed": 0.8,
+            "mood_thoughtful": 0.6,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "باز کردن پنجره برای ورود هوای تازه",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "temp_cool": 0.7,
+            "temp_warm": 0.8,
+            "weather_clear": 0.9,
+            "weather_partly_cloudy": 0.7,
+            "humidity_comfortable": 0.5,
+            "time_morning": 0.9,
+            "mood_low_energy": 0.5,
+            "mood_relaxed": 0.4,
+            "location_home": 1.0,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "پخش صدای باران یا جنگل برای آرامش ذهن",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_clear": 0.3,
+            "weather_rain": 0.7,
+            "weather_cloudy": 0.6,
+            "weather_fog": 0.5,
+            "time_night": 0.9,
+            "time_evening": 0.8,
+            "season_autumn": 0.6,
+            "mood_stressed": 1.0,
+            "mood_sad": 0.8,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "استفاده از رایحه اسطوخودوس برای آرام‌سازی فضا",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_rain": 0.6,
+            "weather_cloudy": 0.5,
+            "time_evening": 0.9,
+            "time_night": 0.8,
+            "season_winter": 0.5,
+            "season_autumn": 0.6,
+            "mood_stressed": 0.9,
+            "mood_thoughtful": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "چیدن چند شمع کوچک برای ایجاد فضای گرم و دلنشین",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_cloudy": 0.7,
+            "weather_rain": 0.8,
+            "weather_snow": 0.7,
+            "time_evening": 1.0,
+            "time_night": 0.9,
+            "season_winter": 0.8,
+            "season_autumn": 0.7,
+            "mood_thoughtful": 0.6,
+            "mood_relaxed": 0.5,
+            "location_home": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "استفاده از اسپند یا عود برای تغییر فضای احساسی خانه",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_cloudy": 0.5,
+            "weather_rain": 0.5,
+            "time_evening": 0.8,
+            "time_night": 0.7,
+            "season_winter": 0.5,
+            "mood_nostalgic": 1.0,
+            "mood_sad": 0.7,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_low": 0.3
+        }
+    },
+    {
+        "text": "تنظیم صدای محیط روی حد آرام برای تمرکز یا استراحت",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_rain": 0.6,
+            "weather_cloudy": 0.5,
+            "weather_clear": 0.3,
+            "time_afternoon": 0.6,
+            "time_evening": 0.7,
+            "mood_stressed": 0.8,
+            "mood_thoughtful": 0.6,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_low": 0.4,
+            "energy_medium": 0.3
+        }
+    },
+    {
+        "text": "بازکردن پرده‌ها برای ورود نور طبیعی",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_clear": 1.0,
+            "weather_partly_cloudy": 0.8,
+            "weather_cloudy": 0.4,
+            "time_morning": 1.0,
+            "time_afternoon": 0.7,
+            "season_spring": 0.8,
+            "season_summer": 0.6,
+            "mood_low_energy": 0.5,
+            "mood_sad": 0.4,
+            "location_home": 1.0,
+            "energy_medium": 0.5
+        }
+    },
+    {
+        "text": "روشن‌کردن یک چراغ مطالعه با نور ملایم برای شب",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "weather_cloudy": 0.6,
+            "weather_rain": 0.7,
+            "time_night": 1.0,
+            "time_evening": 0.8,
+            "season_autumn": 0.7,
+            "season_winter": 0.7,
+            "mood_thoughtful": 0.7,
+            "location_home": 1.0,
+            "location_indoor": 1.0,
+            "energy_low": 0.4
+        }
+    },
+    {
+        "text": "تنظیم دمای اتاق روی حد آرام و راحت",
+        "category": "mood",
+        "subcategory": "sensory_environment",
+        "preferencesJson": {
+            "temp_cool": 0.6,
+            "temp_warm": 0.5,
+            "temp_hot": -0.4,
+            "humidity_humid": -0.4,
+            "weather_clear": 0.4,
+            "weather_cloudy": 0.5,
+            "time_evening": 0.6,
+            "mood_stressed": 0.6,
+            "location_home": 1.0,
+            "energy_low": 0.3,
+            "energy_medium": 0.4
+        }
+    }
+]
